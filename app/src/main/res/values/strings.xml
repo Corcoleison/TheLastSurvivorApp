@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">The last survivor</string>
+    <string name="menu_principal" translatable="false">Menu</string>
+    <string name="map_button" translatable="false">MAP</string>
+    <string name="tools_button" translatable="false">TOOLS</string>
+    <string name="astronomy_button" translatable="false">ASTRONOMY</string>
+    <string name="guide_button" translatable="false">GUIDE</string>
+    <string name="SOS_button" translatable="false">SOS</string>
+    <string name="title_activity_barra_lateral" translatable="false">Barra_lateral</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="beforeStartingTitle">Before Starting</string>
+    <string name="waterTitle2">When you take a journey in the wilderness with your  friends, you may find it fun, exciting, and adventurous  which is normal, but if you get lost, the situation  changes completely. There are wild animals that  could harm you, weather changes that might make  you sick, and other unpleasant incidents that can  happen. Even if you brought enough food and water  for emergency situations like these, there is still a  chance that you will run out.</string>
+    <string name="techniquesTitle">Techniques Of Obtaining Water </string>
+    <string name="waterText2">"In case you are stranded and you can’t find any  source of drinkable water nearby, you need to do  the extra work of collecting your own water.  There are a few tested techniques that will be in  handy in case your water supply is low and there  are no chances of finding a body of water soon.  First, let’s see how to build a below ground still.  You will need to get a tool for digging, a piece of plastic  sheeting, rocks, drinkable tube, and a container  where the water will be collected. "</string>
+    <string name="LongTap">Long Tap to stop the narration </string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="map_types_list">
+        <item>None</item>
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+        <item>Terrain</item>
+    </string-array>
+    <string name="celsius">&#176;C</string>
+    <string name="hello_world">Jorgesys!</string>
+</resources>

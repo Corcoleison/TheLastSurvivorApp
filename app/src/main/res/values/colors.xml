@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="colorBarraSuperior">#27712a</color>
+    <color name="colorMedioFondo">#b9adad</color>
+    <color name="colorFondo">#ffffff</color>
+    <color name="deutera_verde">#b18a48</color>
+    <color name="prota_verde">#a2913c</color>
+    <color name="trita_verde">#649ba9</color>
+    <color name="deutera_rojo">#8d6e35</color>
+    <color name="prota_rojo">#7d734e</color>
+    <color name="trita_rojo">#c8473c</color>
+</resources>

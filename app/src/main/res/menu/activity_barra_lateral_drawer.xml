@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_map"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_compass"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_astronomy"
+            android:icon="@drawable/ic_scope"
+            android:title="Astronomy" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_spruce"
+            android:title="Guide" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_accesibility"
+                android:icon="@drawable/ic_accessibility_black_24dp"
+                android:title="Accesibility" />
+            <item
+                android:id="@+id/nav_conf"
+                android:icon="@drawable/ic_brightness_low_black_24dp"
+                android:title="Configuration" />
+        </menu>
+    </item>
+
+</menu>

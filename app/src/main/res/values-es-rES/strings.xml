@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The last survivor</string>
+    <string name="beforeStartingTitle">Antes de comenzar</string>
+    <string name="waterTitle2">Cuando haces un viaje por el desierto con tus amigos, puedes encontrarlo divertido, emocionante y aventurero, lo cual es normal, pero si te pierdes, la situación cambia por completo. Hay animales salvajes que podrían dañarlo, cambios climáticos que podrían enfermarlo y otros incidentes desagradables que pueden ocurrir. Incluso si trajo suficiente comida y agua para situaciones de emergencia como estas, todavía existe la posibilidad de que se quede sin ellas.</string>
+    <string name="techniquesTitle">Técnicas de obtención de agua</string>
+    <string name="waterText2">En caso de que quede varado y no pueda encontrar ninguna fuente de agua potable cerca, debe hacer el trabajo adicional de recolectar su propia agua. Hay algunas técnicas probadas que serán útiles en caso de que su suministro de agua sea bajo y no haya posibilidades de encontrar un cuerpo de agua pronto. Primero, veamos cómo construir un subsuelo aún. Necesitará una herramienta para cavar, un trozo de láminas de plástico, rocas, un tubo para beber y un recipiente donde se recogerá el agua.</string>
+    <string name="LongTap">Pulsación larga para detener la narración.</string>
+</resources>

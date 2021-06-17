@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/mySurfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.example.pablo.thelastsurvivor.CapturePreview
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </com.example.pablo.thelastsurvivor.CapturePreview>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_below="@id/mySurfaceView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView android:id="@+id/myImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_menu_camera"/>
+    </LinearLayout>
+
+</RelativeLayout>

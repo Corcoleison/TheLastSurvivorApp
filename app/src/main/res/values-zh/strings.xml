@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The last survivor</string>
+    <string name="beforeStartingTitle">在开始之前</string>
+    <string name="waterTitle2">当您和朋友一起在旷野旅行时，您可能会发现它很有趣，令人兴奋且充满冒险精神，但这很正常，但是如果您迷路了，情况就会完全改变。 有可能伤害您的野生动物，可能使您生病的天气变化以及可能发生的其他不愉快事件。 即使您为此类紧急情况带去了足够的食物和水，仍然有可能会精疲力尽。</string>
+    <string name="techniquesTitle">取水技巧</string>
+    <string name="waterText2">万一您陷入困境而在附近找不到任何饮用水源，则需要做一些额外的工作来收集自己的水。 如果您的水供应不足并且没有机会很快找到水体，则有一些经过测试的技术将很方便。 首先，让我们看看如何建立地下空间。 您将需要获得挖掘工具，一块塑料布，岩石，可饮用的管子以及一个用来收集水的容器。</string>
+    <string name="LongTap">长按可停止叙述</string>
+</resources>

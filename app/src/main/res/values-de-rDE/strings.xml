@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The last survivor</string>
+    <string name="beforeStartingTitle">Bevor es losgeht</string>
+    <string name="waterTitle2">Wenn Sie mit Ihren Freunden eine Reise in die Wildnis unternehmen, werden Sie es vielleicht lustig, aufregend und abenteuerlich finden, was normal ist, aber wenn Sie sich verlaufen, ändert sich die Situation komplett. Es gibt wilde Tiere, die Ihnen schaden könnten, Wetteränderungen, die Sie krank machen könnten, und andere unangenehme Ereignisse, die passieren können. Auch wenn Sie genügend Nahrung und Wasser für solche Notsituationen mitgebracht haben, besteht immer noch die Möglichkeit, dass Ihnen das Wasser ausgeht.</string>
+    <string name="techniquesTitle">Techniken zur Gewinnung von Wasser</string>
+    <string name="waterText2">Wenn Sie gestrandet sind und keine Trinkwasserquelle in der Nähe finden, müssen Sie die zusätzliche Arbeit erledigen, um Ihr eigenes Wasser zu sammeln. Es gibt einige getestete Techniken, die nützlich sind, wenn Ihre Wasserversorgung niedrig ist und es keine Chancen gibt, bald ein Gewässer zu finden. Lassen Sie uns zunächst sehen, wie Sie ein unterirdisches Standbild bauen. Sie benötigen ein Werkzeug zum Graben, ein Stück Plastikfolie, Steine, einen Trinkschlauch und einen Behälter, in dem das Wasser gesammelt wird.</string>
+    <string name="LongTap">Langes Tippen, um den Kommentar zu stoppen</string>
+</resources>

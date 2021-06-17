@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="?attr/colorBackgroundFloating">
+
+    <ImageView
+        android:id="@+id/barraSuperiorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBarraSuperior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WATER"
+        android:textColor="@color/colorFondo"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/barraSuperiorImageView"
+        app:layout_constraintStart_toStartOf="@+id/barraSuperiorImageView"
+        app:layout_constraintTop_toTopOf="@+id/barraSuperiorImageView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/barraButton"
+        app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/menu_desplegable"
+        app:backgroundTint="@android:color/transparent"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/barraSuperiorImageView"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxImageSize="30dp" />
+
+    <TextView
+        android:id="@+id/beforeStartingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="@string/beforeStartingTitle"
+        android:textAlignment="center"
+        android:textColor="?attr/editTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barraSuperiorImageView" />
+
+    <TextView
+        android:id="@+id/techniquesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="228dp"
+        android:text="@string/techniquesTitle"
+        android:textAlignment="center"
+        android:textColor="?attr/editTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barraSuperiorImageView" />
+
+    <TextView
+        android:id="@+id/waterTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/waterTitle2"
+         android:textAlignment="textStart"
+        android:textSize="16sp"
+        android:textColor="?attr/editTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beforeStartingTitle" />
+
+    <TextView
+        android:id="@+id/waterText2"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/waterText2"
+        android:textAlignment="textStart"
+        android:textColor="?attr/editTextColor"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barraSuperiorImageView" />
+
+    <Button
+        android:id="@+id/button_speak"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/hablando"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/change_Lang"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/idioma"
+        android:backgroundTint="?attr/editTextColor"
+        android:enabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
